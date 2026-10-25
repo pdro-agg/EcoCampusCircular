@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1520 1180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#555"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="1520" height="1180" fill="white"/>
+<text x="20" y="20" font-family="Arial" font-size="16" font-weight="bold">Diagrama de Objetos E1 - EcoCampus Circular (version corregida, ejemplo)</text>
+<line x1="720" y1="61.0" x2="770" y2="116.0" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/><line x1="1090" y1="116.0" x2="1140" y2="72.0" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="1079.0" y="83.0" width="72.0" height="15" fill="white" opacity="0.85"/>
+<text x="1115.0" y="94.0" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">categorias</text><line x1="1090" y1="291.0" x2="1140" y2="335.0" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/><line x1="1300.0" y1="260" x2="930.0" y2="202" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="1065.8" y="220.0" width="98.39999999999999" height="15" fill="white" opacity="0.85"/>
+<text x="1115.0" y="231.0" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">puntoEcologico</text><line x1="1300.0" y1="410" x2="1300.0" y2="740" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="1280.5" y="564.0" width="39.0" height="15" fill="white" opacity="0.85"/>
+<text x="1300.0" y="575.0" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">autor</text><line x1="1300.0" y1="410" x2="1300.0" y2="500" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="1244.2" y="444.0" width="111.6" height="15" fill="white" opacity="0.85"/>
+<text x="1300.0" y="455.0" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">operadorAsignado</text><line x1="1140" y1="335.0" x2="720" y2="564.0" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="887.4" y="438.5" width="85.19999999999999" height="15" fill="white" opacity="0.85"/>
+<text x="930.0" y="449.5" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">rutaAsignada</text><line x1="190.0" y1="322" x2="190.0" y2="500" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/><line x1="190.0" y1="500" x2="190.0" y2="136" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="150.7" y="307.0" width="78.6" height="15" fill="white" opacity="0.85"/>
+<text x="190.0" y="318.0" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">actividades</text><line x1="350" y1="597.0" x2="1140" y2="815.0" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="699.1" y="889" width="91.8" height="15" fill="white" opacity="0.85"/>
+<text x="745.0" y="900" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">participantes</text><line x1="190.0" y1="740" x2="560.0" y2="628" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/><line x1="560.0" y1="500" x2="560.0" y2="344" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="533.9" y="411.0" width="52.199999999999996" height="15" fill="white" opacity="0.85"/>
+<text x="560.0" y="422.0" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">paradas</text><line x1="720" y1="302.0" x2="770" y2="116.0" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="695.8" y="189" width="98.39999999999999" height="15" fill="white" opacity="0.85"/>
+<text x="745.0" y="200" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">puntoEcologico</text><line x1="560.0" y1="740" x2="930.0" y2="562" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="709.0" y="640.0" width="72.0" height="15" fill="white" opacity="0.85"/>
+<text x="745.0" y="651.0" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">materiales</text><line x1="930.0" y1="500" x2="1300.0" y2="114" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="1082.3" y="296.0" width="65.4" height="15" fill="white" opacity="0.85"/>
+<text x="1115.0" y="307.0" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">categoria</text><line x1="720" y1="815.0" x2="1140" y2="586.0" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="864.3" y="689.5" width="131.39999999999998" height="15" fill="white" opacity="0.85"/>
+<text x="930.0" y="700.5" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">operadorResponsable</text><line x1="720" y1="1001.0" x2="1140" y2="586.0" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/><line x1="560.0" y1="970" x2="930.0" y2="912" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/><line x1="400" y1="1001.0" x2="1300.0" y2="890" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="30" y="30" width="320" height="106" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="30" y1="64" x2="350" y2="64" stroke="black" stroke-width="1"/>
+<text x="190.0" y="53" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: Actividad</text>
+<text x="40" y="82" font-family="Arial" font-size="12.5">nombre = "Cazadores de Plastico"</text>
+<text x="40" y="104" font-family="Arial" font-size="12.5">fecha = "09/09/2026"</text>
+<text x="40" y="126" font-family="Arial" font-size="12.5">cupo = 20</text><rect x="400" y="30" width="320" height="62" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="400" y1="64" x2="720" y2="64" stroke="black" stroke-width="1"/>
+<text x="560.0" y="53" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: RepositorioPuntosEcologicos</text>
+<text x="410" y="82" font-family="Arial" font-size="12.5">total = 3</text><rect x="770" y="30" width="320" height="172" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="770" y1="64" x2="1090" y2="64" stroke="black" stroke-width="1"/>
+<text x="930.0" y="53" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: PuntoEcologico</text>
+<text x="780" y="82" font-family="Arial" font-size="12.5">codigo = "PE002"</text>
+<text x="780" y="104" font-family="Arial" font-size="12.5">ubicacion = "Bloque B"</text>
+<text x="780" y="126" font-family="Arial" font-size="12.5">capacidad = 30</text>
+<text x="780" y="148" font-family="Arial" font-size="12.5">estado = "Activo"</text>
+<text x="780" y="170" font-family="Arial" font-size="12.5">capacidadCategorias = 3</text>
+<text x="780" y="192" font-family="Arial" font-size="12.5">totalCategorias = 3</text><rect x="1140" y="30" width="320" height="84" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="1140" y1="64" x2="1460" y2="64" stroke="black" stroke-width="1"/>
+<text x="1300.0" y="53" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: CategoriaMaterial</text>
+<text x="1150" y="82" font-family="Arial" font-size="12.5">codigo = "PL"</text>
+<text x="1150" y="104" font-family="Arial" font-size="12.5">nombre = "Plastico"</text><rect x="30" y="260" width="320" height="62" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="30" y1="294" x2="350" y2="294" stroke="black" stroke-width="1"/>
+<text x="190.0" y="283" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: RepositorioCampanas</text>
+<text x="40" y="312" font-family="Arial" font-size="12.5">total = 1</text><rect x="400" y="260" width="320" height="84" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="400" y1="294" x2="720" y2="294" stroke="black" stroke-width="1"/>
+<text x="560.0" y="283" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: Parada</text>
+<text x="410" y="312" font-family="Arial" font-size="12.5">orden = 1</text>
+<text x="410" y="334" font-family="Arial" font-size="12.5">accionEsperada = "Vaciar contenedor"</text><rect x="770" y="260" width="320" height="62" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="770" y1="294" x2="1090" y2="294" stroke="black" stroke-width="1"/>
+<text x="930.0" y="283" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: RepositorioReportes</text>
+<text x="780" y="312" font-family="Arial" font-size="12.5">total = 1</text><rect x="1140" y="260" width="320" height="150" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="1140" y1="294" x2="1460" y2="294" stroke="black" stroke-width="1"/>
+<text x="1300.0" y="283" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: Reporte</text>
+<text x="1150" y="312" font-family="Arial" font-size="12.5">numero = 801</text>
+<text x="1150" y="334" font-family="Arial" font-size="12.5">descripcion = "Contenedor lleno"</text>
+<text x="1150" y="356" font-family="Arial" font-size="12.5">fecha = "09/09/2026"</text>
+<text x="1150" y="378" font-family="Arial" font-size="12.5">prioridad = "Alta"</text>
+<text x="1150" y="400" font-family="Arial" font-size="12.5">estado = "Cerrado"</text><rect x="30" y="500" width="320" height="194" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="30" y1="534" x2="350" y2="534" stroke="black" stroke-width="1"/>
+<text x="190.0" y="523" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: Campana</text>
+<text x="40" y="552" font-family="Arial" font-size="12.5">numero = 1029</text>
+<text x="40" y="574" font-family="Arial" font-size="12.5">nombre = "Reciclaton 2026"</text>
+<text x="40" y="596" font-family="Arial" font-size="12.5">estado = "Abierta"</text>
+<text x="40" y="618" font-family="Arial" font-size="12.5">capacidadActividades = 3</text>
+<text x="40" y="640" font-family="Arial" font-size="12.5">totalActividades = 1</text>
+<text x="40" y="662" font-family="Arial" font-size="12.5">capacidadParticipantes = 20</text>
+<text x="40" y="684" font-family="Arial" font-size="12.5">totalParticipantes = 1</text><rect x="400" y="500" width="320" height="128" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="400" y1="534" x2="720" y2="534" stroke="black" stroke-width="1"/>
+<text x="560.0" y="523" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: RutaRecoleccion</text>
+<text x="410" y="552" font-family="Arial" font-size="12.5">numero = 3094</text>
+<text x="410" y="574" font-family="Arial" font-size="12.5">estado = "Abierta"</text>
+<text x="410" y="596" font-family="Arial" font-size="12.5">capacidadParadas = 3</text>
+<text x="410" y="618" font-family="Arial" font-size="12.5">totalParadas = 1</text><rect x="770" y="500" width="320" height="62" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="770" y1="534" x2="1090" y2="534" stroke="black" stroke-width="1"/>
+<text x="930.0" y="523" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: MaterialRecolectado</text>
+<text x="780" y="552" font-family="Arial" font-size="12.5">peso = 5.3</text><rect x="1140" y="500" width="320" height="172" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="1140" y1="534" x2="1460" y2="534" stroke="black" stroke-width="1"/>
+<text x="1300.0" y="523" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: Operador</text>
+<text x="1150" y="552" font-family="Arial" font-size="12.5">idOperador = "OP001"</text>
+<text x="1150" y="574" font-family="Arial" font-size="12.5">idPersona = "P1023"</text>
+<text x="1150" y="596" font-family="Arial" font-size="12.5">nombre = "Emilia"</text>
+<text x="1150" y="618" font-family="Arial" font-size="12.5">correo = "emilia0982@eia.edu.co"</text>
+<text x="1150" y="640" font-family="Arial" font-size="12.5">disponible = false</text>
+<text x="1150" y="662" font-family="Arial" font-size="12.5">habilitadoResiduosEspeciales = true</text><rect x="30" y="740" width="320" height="62" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="30" y1="774" x2="350" y2="774" stroke="black" stroke-width="1"/>
+<text x="190.0" y="763" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: RepositorioRutas</text>
+<text x="40" y="792" font-family="Arial" font-size="12.5">total = 3</text><rect x="400" y="740" width="320" height="150" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="400" y1="774" x2="720" y2="774" stroke="black" stroke-width="1"/>
+<text x="560.0" y="763" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: Recoleccion</text>
+<text x="410" y="792" font-family="Arial" font-size="12.5">numero = 501</text>
+<text x="410" y="814" font-family="Arial" font-size="12.5">fecha = "09/09/2026"</text>
+<text x="410" y="836" font-family="Arial" font-size="12.5">observaciones = "Recoleccion realizada con exito"</text>
+<text x="410" y="858" font-family="Arial" font-size="12.5">capacidadMateriales = 10</text>
+<text x="410" y="880" font-family="Arial" font-size="12.5">totalMateriales = 1</text><rect x="770" y="740" width="320" height="172" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="770" y1="774" x2="1090" y2="774" stroke="black" stroke-width="1"/>
+<text x="930.0" y="763" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: ResponsableSostenibilidad</text>
+<text x="780" y="792" font-family="Arial" font-size="12.5">idResponsable = 98723</text>
+<text x="780" y="814" font-family="Arial" font-size="12.5">idPersona = "P1024"</text>
+<text x="780" y="836" font-family="Arial" font-size="12.5">nombre = "Manuel"</text>
+<text x="780" y="858" font-family="Arial" font-size="12.5">correo = "manuel98@eia.edu.co"</text>
+<text x="780" y="880" font-family="Arial" font-size="12.5">disponible = true</text>
+<text x="780" y="902" font-family="Arial" font-size="12.5">zonaAsignada = "Biblioteca"</text><rect x="1140" y="740" width="320" height="150" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="1140" y1="774" x2="1460" y2="774" stroke="black" stroke-width="1"/>
+<text x="1300.0" y="763" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: UsuarioCampus</text>
+<text x="1150" y="792" font-family="Arial" font-size="12.5">idPersona = "P1025"</text>
+<text x="1150" y="814" font-family="Arial" font-size="12.5">nombre = "Mariana"</text>
+<text x="1150" y="836" font-family="Arial" font-size="12.5">correo = "mariana46@eia.edu.co"</text>
+<text x="1150" y="858" font-family="Arial" font-size="12.5">tipoVinculacion = "Estudiante"</text>
+<text x="1150" y="880" font-family="Arial" font-size="12.5">ecoPuntos = 10</text><rect x="400" y="970" width="320" height="62" fill="white" stroke="black" stroke-width="1.3"/>
+<line x1="400" y1="1004" x2="720" y2="1004" stroke="black" stroke-width="1"/>
+<text x="560.0" y="993" font-family="Arial" font-size="14" text-anchor="middle" text-decoration="underline">: RepositorioPersonas</text>
+<text x="410" y="1022" font-family="Arial" font-size="12.5">total = 3</text>
+</svg>

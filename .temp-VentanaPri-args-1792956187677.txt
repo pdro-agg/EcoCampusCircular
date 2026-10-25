@@ -1,0 +1,11 @@
+--module-path
+"C:\\javafx-sdk-21\\javafx-sdk-21.0.12\\lib"
+--add-modules
+javafx.controls
+-Dfile.encoding=UTF-8
+-Dstdout.encoding=UTF-8
+-Dstderr.encoding=UTF-8
+-classpath
+"C:\\Users\\PEDRO\\Documents\\EcoCampus\\EcoCampusCircularV5\\EcoCampus.Circular\\bin;C:\\javafx-sdk-21\\javafx-sdk-21.0.12\\lib\\javafx.base.jar;C:\\javafx-sdk-21\\javafx-sdk-21.0.12\\lib\\javafx.controls.jar;C:\\javafx-sdk-21\\javafx-sdk-21.0.12\\lib\\javafx.graphics.jar;C:\\javafx-sdk-21\\javafx-sdk-21.0.12\\lib\\sqlite-jdbc-3.41.2.2.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\junit-jupiter-api_6.1.3.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\junit-jupiter-engine_6.1.3.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\junit-jupiter-params_6.1.3.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\junit-platform-commons_6.1.3.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\junit-platform-engine_6.1.3.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\junit-platform-launcher_6.1.3.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\junit-platform-suite-api_6.1.3.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\junit-platform-suite-engine_6.1.3.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\org.opentest4j_1.3.0.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\org.apiguardian.api_1.1.2.jar;C:\\Users\\PEDRO\\.p2\\pool\\plugins\\org.hamcrest_3.0.0.jar;C:\\Users\\PEDRO\\Downloads\\mssql-jdbc-13.6.0.jre11.jar"
+-XX:+ShowCodeDetailsInExceptionMessages
+co.edu.eia.ecocampus.app.VentanaPrincipal

@@ -1,0 +1,225 @@
+/* EcoCampus Circular - tema verde */
+.root {
+    -verde-oscuro: #1B5E20;
+    -verde: #2E7D32;
+    -verde-suave: #E8F5E9;
+    -fondo: #F3F6F3;
+    -texto: #1F2D24;
+    -gris: #6B7A70;
+    -borde: #D5DDD6;
+    -fx-font-size: 13px;
+    -fx-background-color: -fondo;
+    -fx-focus-color: -verde;
+    -fx-faint-focus-color: transparent;
+}
+
+/* ---------- barra lateral ---------- */
+.barra-lateral {
+    -fx-background-color: linear-gradient(to bottom, #1B5E20, #0E3B13);
+    -fx-padding: 26 14 20 14;
+}
+.marca-titulo {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.nav-boton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #C8E6C9;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 11 16 11 16;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+.nav-boton:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.12);
+}
+.nav-boton:selected {
+    -fx-background-color: white;
+    -fx-text-fill: -verde-oscuro;
+    -fx-font-weight: bold;
+}
+
+/* ---------- contenido ---------- */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.panel {
+    -fx-padding: 28 32 32 32;
+    -fx-background-color: -fondo;
+}
+.panel-titulo {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -verde-oscuro;
+}
+.panel-subtitulo {
+    -fx-text-fill: -gris;
+    -fx-font-size: 13px;
+}
+.tarjeta {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 14, 0, 0, 2);
+}
+.tarjeta-titulo {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -texto;
+}
+.etiqueta {
+    -fx-text-fill: -gris;
+}
+.etiqueta-seccion {
+    -fx-text-fill: -verde;
+    -fx-font-weight: bold;
+    -fx-padding: 6 0 0 0;
+}
+
+/* ---------- mensajes ---------- */
+.mensaje {
+    -fx-padding: 11 16 11 16;
+    -fx-background-radius: 10;
+    -fx-font-size: 13px;
+}
+.mensaje-ok {
+    -fx-background-color: #DFF2E1;
+    -fx-text-fill: #14521A;
+}
+.mensaje-error {
+    -fx-background-color: #FCE4E2;
+    -fx-text-fill: #A31515;
+}
+
+/* ---------- controles ---------- */
+.text-field, .combo-box-base, .date-picker {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: -borde;
+    -fx-border-radius: 8;
+}
+.text-field {
+    -fx-padding: 7 10 7 10;
+}
+.text-field:focused, .combo-box-base:focused, .text-area:focused {
+    -fx-border-color: -verde;
+}
+.text-area {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: -borde;
+    -fx-border-radius: 8;
+}
+.text-area .content {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+}
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+.check-box:selected .box {
+    -fx-background-color: -verde;
+    -fx-border-color: -verde;
+}
+
+.boton-primario, .boton-secundario, .boton-peligro {
+    -fx-background-radius: 9;
+    -fx-padding: 9 18 9 18;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.boton-primario {
+    -fx-background-color: -verde;
+    -fx-text-fill: white;
+}
+.boton-primario:hover {
+    -fx-background-color: -verde-oscuro;
+}
+.boton-secundario {
+    -fx-background-color: -verde-suave;
+    -fx-text-fill: -verde-oscuro;
+}
+.boton-secundario:hover {
+    -fx-background-color: #C8E6C9;
+}
+.boton-peligro {
+    -fx-background-color: #FCE4E2;
+    -fx-text-fill: #A31515;
+}
+.boton-peligro:hover {
+    -fx-background-color: #F7C7C3;
+}
+
+/* ---------- tablas y listas ---------- */
+.table-view, .list-view {
+    -fx-background-color: white;
+    -fx-border-color: -borde;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+.table-view .column-header-background {
+    -fx-background-color: #EEF3EF;
+    -fx-background-radius: 8 8 0 0;
+}
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 38;
+    -fx-border-color: transparent transparent -borde transparent;
+}
+.table-view .column-header .label {
+    -fx-text-fill: -gris;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+}
+.table-row-cell {
+    -fx-cell-size: 36px;
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+.table-row-cell:odd {
+    -fx-background-color: #F9FBF9;
+}
+.table-row-cell:selected {
+    -fx-background-color: #C8E6C9;
+}
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: -texto;
+}
+.table-cell {
+    -fx-alignment: CENTER_LEFT;
+    -fx-text-fill: -texto;
+}
+.list-cell:odd {
+    -fx-background-color: #F9FBF9;
+}
+.list-cell:selected {
+    -fx-background-color: #C8E6C9;
+    -fx-text-fill: -texto;
+}
+/* el valor mostrado dentro de un ComboBox no debe verse como fila seleccionada */
+.combo-box-base > .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: -texto;
+}
+
+/* ---------- colores de estado ---------- */
+.estado-pendiente { -fx-text-fill: #E65100; -fx-font-weight: bold; }
+.estado-asignado { -fx-text-fill: #1565C0; -fx-font-weight: bold; }
+.estado-cerrado, .estado-cerrada { -fx-text-fill: #2E7D32; -fx-font-weight: bold; }
+.estado-invalido, .estado-inactivo, .estado-ocupado { -fx-text-fill: #B71C1C; -fx-font-weight: bold; }
+.estado-activo, .estado-abierta, .estado-disponible { -fx-text-fill: #2E7D32; -fx-font-weight: bold; }
+
+/* ---------- indicadores del resumen ---------- */
+.kpi-valor {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -verde;
+}
+.kpi-titulo {
+    -fx-text-fill: -gris;
+}
