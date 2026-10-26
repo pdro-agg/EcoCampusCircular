@@ -24,7 +24,7 @@ public class CalculoEcoPuntosTest {
     void testCalculoPorMaterialNormal() {
         CalculoPorMaterial estrategia = new CalculoPorMaterial();
         int puntos = estrategia.calcular(materialPrueba, 10.0);
-        assertTrue(puntos >= 0);
+        assertEquals(100, puntos); // plastico: 10 puntos por kilo
     }
 
     @Test

@@ -45,6 +45,30 @@ public class Reporte implements Identificable {
         this.observadores = new ArrayList<>();
     }
 
+    // 3. Constructor para pruebas (int numero)
+    public Reporte(int numero, UsuarioCampus autor, PuntoEcologico punto, String descripcion, String fecha) {
+        this.id = String.valueOf(numero);
+        this.autor = autor;
+        this.puntoEcologico = punto;
+        this.descripcion = descripcion;
+        this.fecha = fecha;
+        this.estado = "Pendiente";
+        this.historial = new ArrayList<>();
+        this.observadores = new ArrayList<>();
+    }
+
+    // 4. NUEVO CONSTRUCTOR SOBRECARGADO: Acepta ID como String para EliminacionConsistenciaTest
+    public Reporte(String id, UsuarioCampus autor, PuntoEcologico punto, String descripcion, String fecha) {
+        this.id = id;
+        this.autor = autor;
+        this.puntoEcologico = punto;
+        this.descripcion = descripcion;
+        this.fecha = fecha;
+        this.estado = "Pendiente";
+        this.historial = new ArrayList<>();
+        this.observadores = new ArrayList<>();
+    }
+
     @Override
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
@@ -101,5 +125,23 @@ public class Reporte implements Identificable {
 
     public void reabrir() throws EcoCampusException {
         this.estado = "Pendiente"; // O el estado con el que inicies los reportes
+    }
+
+    public static class HistorialCambios {
+        private String descripcion;
+        private long timestamp;
+
+        public HistorialCambios(String descripcion) {
+            this.descripcion = descripcion;
+            this.timestamp = System.currentTimeMillis();
+        }
+
+        public String getDescripcion() {
+            return descripcion;
+        }
+
+        public long getTimestamp() {
+            return timestamp;
+        }
     }
 }
